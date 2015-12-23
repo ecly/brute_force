@@ -42,10 +42,11 @@ public class Brute{
 		return result;
 	}
 
-	//assumed alphabet in arbitraryorder
+	//assumed alphabet missing various symbols, sorted in order
+	//of common frequency.
 	public static char[] ALPHABET(){
 		char[] alphabet =
-			"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+			"aeorisn1tl2md0cp3hbuk45g9687yfwjvzxqASERBTMLNPOIDCHGKFJUWYVZQX"
 			.toCharArray();
 
 		return alphabet;
